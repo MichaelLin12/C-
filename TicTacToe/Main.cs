@@ -1,8 +1,8 @@
 using System;
 
-namespace HelloWorld
+namespace TicTacToe
 {
-  class Program
+  class main
   {
     static void Main(string[] args)
     {
