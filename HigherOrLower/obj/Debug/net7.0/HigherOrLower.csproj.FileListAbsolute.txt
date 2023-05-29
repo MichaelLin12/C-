@@ -1,0 +1,15 @@
+C:\Users\micha\Documents\C#\HigherOrLower\bin\Debug\net7.0\HigherOrLower.exe
+C:\Users\micha\Documents\C#\HigherOrLower\bin\Debug\net7.0\HigherOrLower.deps.json
+C:\Users\micha\Documents\C#\HigherOrLower\bin\Debug\net7.0\HigherOrLower.runtimeconfig.json
+C:\Users\micha\Documents\C#\HigherOrLower\bin\Debug\net7.0\HigherOrLower.dll
+C:\Users\micha\Documents\C#\HigherOrLower\bin\Debug\net7.0\HigherOrLower.pdb
+C:\Users\micha\Documents\C#\HigherOrLower\obj\Debug\net7.0\HigherOrLower.csproj.AssemblyReference.cache
+C:\Users\micha\Documents\C#\HigherOrLower\obj\Debug\net7.0\HigherOrLower.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\micha\Documents\C#\HigherOrLower\obj\Debug\net7.0\HigherOrLower.AssemblyInfoInputs.cache
+C:\Users\micha\Documents\C#\HigherOrLower\obj\Debug\net7.0\HigherOrLower.AssemblyInfo.cs
+C:\Users\micha\Documents\C#\HigherOrLower\obj\Debug\net7.0\HigherOrLower.csproj.CoreCompileInputs.cache
+C:\Users\micha\Documents\C#\HigherOrLower\obj\Debug\net7.0\HigherOrLower.dll
+C:\Users\micha\Documents\C#\HigherOrLower\obj\Debug\net7.0\refint\HigherOrLower.dll
+C:\Users\micha\Documents\C#\HigherOrLower\obj\Debug\net7.0\HigherOrLower.pdb
+C:\Users\micha\Documents\C#\HigherOrLower\obj\Debug\net7.0\HigherOrLower.genruntimeconfig.cache
+C:\Users\micha\Documents\C#\HigherOrLower\obj\Debug\net7.0\ref\HigherOrLower.dll

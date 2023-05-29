@@ -78,3 +78,47 @@ Math methods
     -Math.Cos(10);
     -Math.Tan(10);
     -Math.Epsilon;
+
+String interpolation
+    -string name = "John";
+    -string message = $"Hi {name}"; --> Hi John
+
+Switch Statement
+    - can only be used with byte, int, char, string
+    ex. switch (role)
+        {
+            case "admin":
+                Console.WriteLine("You're an admin");
+                break;
+            case "moderator":
+                Console.WriteLine("You're a moderator");
+                break;
+            default:
+                Console.WriteLine("You're a guest");
+                break;
+        }
+
+Enums
+    - set of name/value pairs (constants)
+    - it is assumed that the value is an integer starting from 0 by default
+    
+    ex. enum Season
+        {
+            Spring,
+            Summer,
+            Autumn,
+            Winter
+        }
+
+        Season season = Season.Autumn;
+
+        switch (season)
+        {
+            case Season.Autumn:
+            case Season.Summer:
+                Console.WriteLine("We've got promotion");
+                break;
+            default:
+                Console.WriteLine("I don't understand that season");
+                break;
+        }
