@@ -6,3 +6,75 @@ cd app
 code . # to open project in VSCode
 
 dotnet run --> to run the app
+
+
+C# data types
+-int a = 10;
+-string name = "John";
+    - name[0] = 'M'; --> error
+    - name[0]; --> 'J'
+-char grade = 'A';
+-bool isWorking = true;
+-double price = 1.99;
+-float price = 1.99f;
+-DateTime today = DateTime.Now;
+-DateTime today = new DateTime(2020, 1, 1);
+-DateTime today = DateTime.Today;
+
+
+C# string methods
+-string.ToUpper();
+-string.ToLower();
+-string.Trim(); --> remove white spaces
+-string.Contains("John");
+-string.StartsWith("John");
+-string.EndsWith("John");
+-string.IndexOf('a');
+-string.LastIndexOf('a');
+-string.Substring(0, 4);
+-string.Replace('a', '!'); --> replace first occurence
+-string.Replace("mosh", "Mosh"); --> replace all occurences
+-string.Split(' '); --> split by space
+-string.Split(new char[] { ' ', ',' }); --> split by space and comma
+-string.Join('-', array); --> join array with -
+-string.IsNullOrEmpty(str); --> check if string is null or empty
+-string.IsNullOrWhiteSpace(str); --> check if string is null or white space
+-string.Format("Hi {0}", name); --> format string with name
+-string.Length; --> get length of string
+
+
+C# type conversion
+-implicit conversion
+    int i = 10;
+    float f = i;
+-explicit conversion
+    float f = 10.99f;
+    int i = (int)f;
+    int i = Convert.ToInt32(f);
+    int i = int.Parse(f);
+    int i = int.Parse("1234");
+    int i = int.Parse("1234.56"); --> error
+    int i = Convert.ToInt32("1234.56"); --> error
+    int i = Convert.ToInt32("1234"); --> 1234
+    int i = Convert.ToInt32(null); --> error
+    int i = Convert.ToInt32("abc"); --> error
+    int i = C
+
+Math methods
+    -Math.Max(1, 2);
+    -Math.Min(1, 2);
+    -Math.Round(1.2);
+    -Math.Floor(1.2);
+    -Math.Ceiling(1.2);
+    -Math.Sqrt(9);
+    -Math.Abs(-1);
+    -Math.Pow(2, 3);
+    -Math.PI;
+    -Math.E;
+    -Math.Log(10); --> base e
+    -Math.Log10(10);
+    -Math.Log2(10);
+    -Math.Sin(10);
+    -Math.Cos(10);
+    -Math.Tan(10);
+    -Math.Epsilon;
