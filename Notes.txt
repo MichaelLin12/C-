@@ -122,3 +122,47 @@ Enums
                 Console.WriteLine("I don't understand that season");
                 break;
         }
+
+Multi-Dimensional Arrays
+    - int[,] numbers = new int[3, 5];
+    - int[,] numbers = new int[3, 5]
+        {
+            {1, 2, 3, 4, 5},
+            {6, 7, 8, 9, 10},
+            {11, 12, 13, 14, 15}
+        };
+
+
+Exception Handling
+    try{
+            var num = int.Parse("abc");
+    }catch (Exception){
+            Console.WriteLine("Conversion failed");
+    }finally{
+        Console.WriteLine("Finally block");
+    }
+
+
+Getters and Setters
+    - c# has getters and setters for private fields
+    ex. public class Person
+        {
+            private DateTime birthdate;
+            public birthdate{
+                get {return birthdate;}
+                set {birthdate = value;}
+            }
+        }
+
+dynamic types
+    ex. dynamic a = 10;
+        dynamic b = "abc";
+        dynamic c = new List<int>();
+        c.Add(1);
+        c.Add("abc"); --> error
+
+static
+    - static members belong to the class itself
+    - static members can be accessed without creating an instance of the class
+    - static members are only initialized once at the start of the program
+    - static classes cannot be instantiated
