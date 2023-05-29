@@ -1,0 +1,8 @@
+dotnet --version --> check version of C# compiler
+
+
+dotnet new console -o app --> create new console app
+cd app
+code . # to open project in VSCode
+
+dotnet run --> to run the app
